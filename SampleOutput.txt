@@ -1,0 +1,116 @@
+SINGLE PLAYER:
+
+        Client running on Host localhost| Port 8082
+        Two Players? (y/n)
+        >>n
+        One Player Game Started
+        _ _ _
+        Incorrect Guesses:
+
+        Letter to guess: a
+        Correct!
+        _ a _
+        Incorrect Guesses:
+
+        Letter to guess: c
+        Correct!
+        c a _
+        Incorrect Guesses:
+
+        Letter to guess: m
+        Incorrect!
+        c a _
+        Incorrect Guesses: m
+
+        Letter to guess: a
+        Error! Letter A has been guessed before, please guess another letter.
+        Letter to guess: bb
+        Error! Please guess one letter
+        Letter to guess: 3
+        Error! Please guess one letter
+        Letter to guess: t
+        Correct!
+        c a t
+        Incorrect Guesses: m
+
+        You Win!
+        Game Over!
+
+
+
+MULTIPLAYER
+
+CLIENT #1
+
+        Client running on Host localhost| Port 8082
+        Two Players? (y/n)
+        >>y
+        Waiting for other player!
+        Game starting!
+        Your Turn!
+        _ _ _ _
+        Incorrect Guesses:
+
+        Letter to guess: a
+        Incorrect!
+        Waiting on other player...
+        Your Turn!
+        _ _ _ _
+        Incorrect Guesses: a i
+
+        Letter to guess: o
+        Correct!
+        Waiting on other player...
+        Your Turn!
+        _ o _ _
+        Incorrect Guesses: a i c
+
+        Letter to guess: d
+        Incorrect!
+        Waiting on other player...
+        Your Turn!
+        _ o _ _
+        Incorrect Guesses: a i c d y
+
+        Letter to guess: t
+        Incorrect!
+        _ o _ _
+        Incorrect Guesses: a i c d y
+
+        You Lose :(
+        Game Over!
+
+
+CLIENT #2
+
+        Client running on Host localhost| Port 8082
+        Two Players? (y/n)
+        >>y
+        Waiting for other player!
+        Game starting!
+        Your Turn!
+        _ _ _ _
+        Incorrect Guesses: a
+
+        Letter to guess: i
+        Incorrect!
+        Waiting on other player...
+        Your Turn!
+        _ o _ _
+        Incorrect Guesses: a i
+
+        Letter to guess: c
+        Incorrect!
+        Waiting on other player...
+        Your Turn!
+        _ o _ _
+        Incorrect Guesses: a i c d
+
+        Letter to guess: y
+        Incorrect!
+        Waiting on other player...
+        _ o _ _
+        Incorrect Guesses: a i c d y
+
+        You Lose :(
+        Game Over!
