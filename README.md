@@ -1,6 +1,6 @@
 ## Hangman-Game
 
-This project was collaborative (2 Programmers)
+This project is collaborative (2 Programmers)
 
 CODE DIRECTIONS
 Python v: 3.6
